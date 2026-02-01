@@ -1,3 +1,3 @@
-SELECT brand, sale_date, SUM(sales) 
+SELECT brand, SUM(sales) 
 FROM Chemist_Warehouse_Table 
 GROUP BY brand, sale_date;
